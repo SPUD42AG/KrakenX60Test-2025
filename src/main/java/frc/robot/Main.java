@@ -20,10 +20,10 @@ public final class Main {
    *
    * <p>If you change your main robot class, change the parameter type.
    */
-  public static void main(String... args) {
-    KrakenX60Run KrakenX60Run = new KrakenX60Run();
-    KrakenX60Run.runKrakenX60();
+    public static void main(String... args) {
+        KrakenX60Run KrakenX60Run = new KrakenX60Run();
+        KrakenX60Run.runKrakenX60();
     
-    RobotBase.startRobot(Robot::new);
-  }
+        RobotBase.startRobot(Robot::new);
+    }
 }
